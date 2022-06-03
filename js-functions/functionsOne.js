@@ -26,7 +26,7 @@ squaredNum(5);
 // Fahrenheit to Celsius conversion function
 
 let fahToCel = function (fah) {
-    let conversion = (32 - fah) * 5 / 9;
+    let conversion = (fah - 32) * 5 / 9;
     console.log(conversion);
 }
 
