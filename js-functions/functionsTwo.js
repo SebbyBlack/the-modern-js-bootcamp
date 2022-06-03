@@ -31,6 +31,8 @@ let tipCalculator = function (bill, tip = .20) {
     return bill + (bill * tip);
 }
 
-let billTotal = tipCalculator(5,);
+var billTotal = tipCalculator(5,);
 console.log(billTotal);
 
+var billTotal = tipCalculator(10, .5);
+console.log(billTotal)
